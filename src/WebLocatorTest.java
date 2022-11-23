@@ -15,16 +15,10 @@ class WebLocatorTest {
 	@Test
 	void test_dummy1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -126,16 +120,9 @@ class WebLocatorTest {
 	@Test
 	void test_dummy2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -236,16 +223,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W1_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -347,16 +327,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W1_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -458,16 +431,10 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W1_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -571,17 +538,10 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W2_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
-		
+	
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
 		
@@ -682,16 +642,10 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W2_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -793,16 +747,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W2_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -904,16 +851,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W3_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1015,16 +955,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W3_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1126,16 +1059,9 @@ class WebLocatorTest {
 	@Test
 	void testForm1_W3_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1237,16 +1163,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W1_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1339,16 +1258,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W1_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1441,16 +1353,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W1_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1543,17 +1448,10 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W2_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
-		
+
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
 		
@@ -1646,16 +1544,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W2_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1749,16 +1640,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W2_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1852,16 +1736,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W3_C1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -1954,16 +1831,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W3_C2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2056,16 +1926,9 @@ class WebLocatorTest {
 	@Test
 	void testForm2_W3_C3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "chrome";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
+
 			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		}
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2155,19 +2018,13 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Test
+	@Disabled
 	void test_dummy3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2266,19 +2123,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void test_dummy4() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2376,19 +2227,13 @@ class WebLocatorTest {
 //		System.out.println("Finish !!!");
 		
 	}		
-	@Test
+	@Disabled
 	void testForm1_W1_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2487,19 +2332,13 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm1_W1_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2598,20 +2437,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W1_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
-		
+
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
 		
@@ -2711,19 +2543,13 @@ class WebLocatorTest {
 
 
 	
-	@Test
+	@Disabled
 	void testForm1_W2_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2822,19 +2648,14 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm1_W2_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -2933,19 +2754,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W2_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3044,19 +2859,13 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Test
+	@Disabled
 	void testForm1_W3_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3155,19 +2964,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W3_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3266,19 +3069,13 @@ class WebLocatorTest {
 		
 	}		
 
-	@Test
+	@Disabled
 	void testForm1_W3_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3377,19 +3174,13 @@ class WebLocatorTest {
 		
 	}		
 	
-	@Test
+	@Disabled
 	void testForm2_W1_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3479,19 +3270,13 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W1_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+	
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3581,19 +3366,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm2_W1_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3683,19 +3462,13 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Test
+	@Disabled
 	void testForm2_W2_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3786,19 +3559,13 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm2_W2_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3889,19 +3656,13 @@ class WebLocatorTest {
 		
 	}		
 
-	@Test
+	@Disabled
 	void testForm2_W2_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -3992,19 +3753,13 @@ class WebLocatorTest {
 		
 	}		
 	
-	@Test
+	@Disabled
 	void testForm2_W3_E1() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -4094,19 +3849,13 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W3_E2() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -4196,19 +3945,13 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W3_E3() throws InterruptedException {
 		WebDriver driver = null;
-		String browser = "edge";
-		
-		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		else if(browser.equalsIgnoreCase("edge")) {
+
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		}
+
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
