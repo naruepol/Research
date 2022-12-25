@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 class WebLocatorTest {
@@ -16,9 +17,10 @@ class WebLocatorTest {
 	void test_dummy1() throws InterruptedException {
 		WebDriver driver = null;
 
-			System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
-			driver = new ChromeDriver();
-
+		System.setProperty("webdriver.chrome.driver", "D:\\webdriver\\chromedriver.exe");
+		driver = new ChromeDriver();
+//			System.setProperty("webdriver.gecko.driver", "D:\\webdriver\\geckodriver.exe");
+//			driver = new FirefoxDriver();
 		
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
@@ -115,7 +117,8 @@ class WebLocatorTest {
         driver = null;
 //		System.out.println("Finish !!!");
 		
-	}	
+	}
+
 
 	@Test
 	void test_dummy2() throws InterruptedException {
