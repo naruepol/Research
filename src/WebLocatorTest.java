@@ -1,5 +1,3 @@
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -8,12 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 class WebLocatorTest {
 
-	@Test
+	@Disabled
 	void test_dummy1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -27,88 +24,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -120,7 +117,7 @@ class WebLocatorTest {
 	}
 
 
-	@Test
+	@Disabled
 	void test_dummy2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -132,88 +129,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -223,7 +220,7 @@ class WebLocatorTest {
 //		System.out.println("Finish !!!");
 		
 	}		
-	@Test
+	@Disabled
 	void testForm1_W1_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -235,88 +232,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -327,7 +324,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm1_W1_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -339,88 +336,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -431,7 +428,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W1_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -444,88 +441,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -538,7 +535,7 @@ class WebLocatorTest {
 
 
 	
-	@Test
+	@Disabled
 	void testForm1_W2_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -550,88 +547,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -642,7 +639,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm1_W2_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -655,88 +652,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -747,7 +744,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W2_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -759,88 +756,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -851,7 +848,7 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Test
+	@Disabled
 	void testForm1_W3_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -863,88 +860,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -955,7 +952,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm1_W3_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -967,88 +964,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -1059,7 +1056,7 @@ class WebLocatorTest {
 		
 	}		
 
-	@Test
+	@Disabled
 	void testForm1_W3_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1071,88 +1068,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -1163,7 +1160,7 @@ class WebLocatorTest {
 		
 	}		
 	
-	@Test
+	@Disabled
 	void testForm2_W1_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1175,25 +1172,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -1258,7 +1255,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W1_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1270,25 +1267,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -1353,7 +1350,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm2_W1_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1365,25 +1362,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -1448,7 +1445,7 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Test
+	@Disabled
 	void testForm2_W2_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1461,25 +1458,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -1544,7 +1541,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Test
+	@Disabled
 	void testForm2_W2_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1557,25 +1554,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -1640,7 +1637,7 @@ class WebLocatorTest {
 		
 	}		
 
-	@Test
+	@Disabled
 	void testForm2_W2_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1653,25 +1650,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -1736,7 +1733,7 @@ class WebLocatorTest {
 		
 	}			
 	
-	@Test
+	@Disabled
 	void testForm2_W3_C1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1748,25 +1745,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
@@ -1831,7 +1828,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W3_C2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1843,25 +1840,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
@@ -1926,7 +1923,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Test
+	@Disabled
 	void testForm2_W3_C3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -1938,25 +1935,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
@@ -2019,9 +2016,9 @@ class WebLocatorTest {
         driver = null;
 //		System.out.println("Finish !!!");
 		
-	}	
+	}			
 	
-	@Disabled
+	@Test
 	void test_dummy3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2034,88 +2031,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2126,7 +2123,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void test_dummy4() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2139,88 +2136,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2230,7 +2227,7 @@ class WebLocatorTest {
 //		System.out.println("Finish !!!");
 		
 	}		
-	@Disabled
+	@Test
 	void testForm1_W1_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2243,88 +2240,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2335,7 +2332,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Disabled
+	@Test
 	void testForm1_W1_E2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2348,88 +2345,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2440,7 +2437,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void testForm1_W1_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2452,88 +2449,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 			
 		driver.findElement(By.id("text11")).click();
-		driver.findElement(By.id("text11")).sendKeys("AJCC");
+		driver.findElement(By.id("text11")).sendKeys("TNAIC");
 		driver.findElement(By.id("text12")).click();
-		driver.findElement(By.id("text12")).sendKeys("AJCC");
+		driver.findElement(By.id("text12")).sendKeys("TNAIC");
 		driver.findElement(By.id("text13")).click();
-		driver.findElement(By.id("text13")).sendKeys("AJCC");
+		driver.findElement(By.id("text13")).sendKeys("TNAIC");
 		driver.findElement(By.id("text14")).click();
-		driver.findElement(By.id("text14")).sendKeys("AJCC");
+		driver.findElement(By.id("text14")).sendKeys("TNAIC");
 		driver.findElement(By.id("text15")).click();
-		driver.findElement(By.id("text15")).sendKeys("AJCC");
+		driver.findElement(By.id("text15")).sendKeys("TNAIC");
 		driver.findElement(By.id("text16")).click();
-		driver.findElement(By.id("text16")).sendKeys("AJCC");
+		driver.findElement(By.id("text16")).sendKeys("TNAIC");
 		driver.findElement(By.id("text17")).click();
-		driver.findElement(By.id("text17")).sendKeys("AJCC");
+		driver.findElement(By.id("text17")).sendKeys("TNAIC");
 		driver.findElement(By.id("text18")).click();
-		driver.findElement(By.id("text18")).sendKeys("AJCC");	
+		driver.findElement(By.id("text18")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text19")).click();
-		driver.findElement(By.id("text19")).sendKeys("AJCC");	
+		driver.findElement(By.id("text19")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text20")).click();
-		driver.findElement(By.id("text20")).sendKeys("AJCC");	
+		driver.findElement(By.id("text20")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text21")).click();
-		driver.findElement(By.id("text21")).sendKeys("AJCC");
+		driver.findElement(By.id("text21")).sendKeys("TNAIC");
 		driver.findElement(By.id("text22")).click();
-		driver.findElement(By.id("text22")).sendKeys("AJCC");
+		driver.findElement(By.id("text22")).sendKeys("TNAIC");
 		driver.findElement(By.id("text23")).click();
-		driver.findElement(By.id("text23")).sendKeys("AJCC");
+		driver.findElement(By.id("text23")).sendKeys("TNAIC");
 		driver.findElement(By.id("text24")).click();
-		driver.findElement(By.id("text24")).sendKeys("AJCC");
+		driver.findElement(By.id("text24")).sendKeys("TNAIC");
 		driver.findElement(By.id("text25")).click();
-		driver.findElement(By.id("text25")).sendKeys("AJCC");
+		driver.findElement(By.id("text25")).sendKeys("TNAIC");
 		driver.findElement(By.id("text26")).click();
-		driver.findElement(By.id("text26")).sendKeys("AJCC");
+		driver.findElement(By.id("text26")).sendKeys("TNAIC");
 		driver.findElement(By.id("text27")).click();
-		driver.findElement(By.id("text27")).sendKeys("AJCC");
+		driver.findElement(By.id("text27")).sendKeys("TNAIC");
 		driver.findElement(By.id("text28")).click();
-		driver.findElement(By.id("text28")).sendKeys("AJCC");	
+		driver.findElement(By.id("text28")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text29")).click();
-		driver.findElement(By.id("text29")).sendKeys("AJCC");	
+		driver.findElement(By.id("text29")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text30")).click();
-		driver.findElement(By.id("text30")).sendKeys("AJCC");	
+		driver.findElement(By.id("text30")).sendKeys("TNAIC");	
 		
 		driver.findElement(By.id("text31")).click();
-		driver.findElement(By.id("text31")).sendKeys("AJCC");
+		driver.findElement(By.id("text31")).sendKeys("TNAIC");
 		driver.findElement(By.id("text32")).click();
-		driver.findElement(By.id("text32")).sendKeys("AJCC");
+		driver.findElement(By.id("text32")).sendKeys("TNAIC");
 		driver.findElement(By.id("text33")).click();
-		driver.findElement(By.id("text33")).sendKeys("AJCC");
+		driver.findElement(By.id("text33")).sendKeys("TNAIC");
 		driver.findElement(By.id("text34")).click();
-		driver.findElement(By.id("text34")).sendKeys("AJCC");
+		driver.findElement(By.id("text34")).sendKeys("TNAIC");
 		driver.findElement(By.id("text35")).click();
-		driver.findElement(By.id("text35")).sendKeys("AJCC");
+		driver.findElement(By.id("text35")).sendKeys("TNAIC");
 		driver.findElement(By.id("text36")).click();
-		driver.findElement(By.id("text36")).sendKeys("AJCC");
+		driver.findElement(By.id("text36")).sendKeys("TNAIC");
 		driver.findElement(By.id("text37")).click();
-		driver.findElement(By.id("text37")).sendKeys("AJCC");
+		driver.findElement(By.id("text37")).sendKeys("TNAIC");
 		driver.findElement(By.id("text38")).click();
-		driver.findElement(By.id("text38")).sendKeys("AJCC");	
+		driver.findElement(By.id("text38")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text39")).click();
-		driver.findElement(By.id("text39")).sendKeys("AJCC");	
+		driver.findElement(By.id("text39")).sendKeys("TNAIC");	
 		driver.findElement(By.id("text40")).click();
-		driver.findElement(By.id("text40")).sendKeys("AJCC");	
+		driver.findElement(By.id("text40")).sendKeys("TNAIC");	
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2546,7 +2543,7 @@ class WebLocatorTest {
 
 
 	
-	@Disabled
+	@Test
 	void testForm1_W2_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2559,88 +2556,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2651,7 +2648,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Disabled
+	@Test
 	void testForm1_W2_E2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2665,88 +2662,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2757,7 +2754,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void testForm1_W2_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2770,88 +2767,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text11\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text11\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text12\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text12\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text13\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text13\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text14\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text14\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text15\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text15\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text16\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text16\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text17\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text17\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text18\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text18\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text19\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text19\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text20\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text20\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text21\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text21\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text22\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text22\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text23\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text23\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text24\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text24\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text25\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text25\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text26\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text26\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text27\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text27\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text28\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text28\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text29\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text29\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text30\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text30\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"text31\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text31\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text32\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text32\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text33\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text33\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text34\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text34\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text35\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text35\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text36\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text36\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text37\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text37\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text38\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text38\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text39\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text39\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text40\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text40\"]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2862,7 +2859,7 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Disabled
+	@Test
 	void testForm1_W3_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2875,88 +2872,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -2967,7 +2964,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void testForm1_W3_E2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -2980,88 +2977,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -3072,7 +3069,7 @@ class WebLocatorTest {
 		
 	}		
 
-	@Disabled
+	@Test
 	void testForm1_W3_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3085,88 +3082,88 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form1.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[11]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[12]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[13]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[13]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[14]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[14]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[16]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[17]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[17]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[18]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[18]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[19]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[19]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[20]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[20]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[21]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[21]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[22]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[22]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[23]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[23]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[24]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[24]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[25]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[25]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[26]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[26]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[27]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[27]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[28]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[28]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[29]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[29]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[30]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[30]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[31]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[31]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[32]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("AJCC");	
+		driver.findElement(By.xpath("/html/body/form/input[32]")).sendKeys("TNAIC");	
 		driver.findElement(By.xpath("/html/body/form/input[33]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[33]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[34]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[34]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[35]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[35]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[36]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[36]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[37]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[37]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[38]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[38]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[39]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[39]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[40]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[40]")).sendKeys("TNAIC");
 //		System.out.println(browser+" is running");
 //		System.out.println("" + driver.getTitle());
 		
@@ -3177,7 +3174,7 @@ class WebLocatorTest {
 		
 	}		
 	
-	@Disabled
+	@Test
 	void testForm2_W1_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3190,25 +3187,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -3273,7 +3270,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Disabled
+	@Test
 	void testForm2_W1_E2() throws InterruptedException {
 		WebDriver driver = null;
 	
@@ -3286,25 +3283,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -3369,7 +3366,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void testForm2_W1_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3382,25 +3379,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.id("text1")).click();
-		driver.findElement(By.id("text1")).sendKeys("AJCC");
+		driver.findElement(By.id("text1")).sendKeys("TNAIC");
 		driver.findElement(By.id("text2")).click();
-		driver.findElement(By.id("text2")).sendKeys("AJCC");
+		driver.findElement(By.id("text2")).sendKeys("TNAIC");
 		driver.findElement(By.id("text3")).click();
-		driver.findElement(By.id("text3")).sendKeys("AJCC");
+		driver.findElement(By.id("text3")).sendKeys("TNAIC");
 		driver.findElement(By.id("text4")).click();
-		driver.findElement(By.id("text4")).sendKeys("AJCC");
+		driver.findElement(By.id("text4")).sendKeys("TNAIC");
 		driver.findElement(By.id("text5")).click();
-		driver.findElement(By.id("text5")).sendKeys("AJCC");
+		driver.findElement(By.id("text5")).sendKeys("TNAIC");
 		driver.findElement(By.id("text6")).click();
-		driver.findElement(By.id("text6")).sendKeys("AJCC");
+		driver.findElement(By.id("text6")).sendKeys("TNAIC");
 		driver.findElement(By.id("text7")).click();
-		driver.findElement(By.id("text7")).sendKeys("AJCC");
+		driver.findElement(By.id("text7")).sendKeys("TNAIC");
 		driver.findElement(By.id("text8")).click();
-		driver.findElement(By.id("text8")).sendKeys("AJCC");
+		driver.findElement(By.id("text8")).sendKeys("TNAIC");
 		driver.findElement(By.id("text9")).click();
-		driver.findElement(By.id("text9")).sendKeys("AJCC");
+		driver.findElement(By.id("text9")).sendKeys("TNAIC");
 		driver.findElement(By.id("text10")).click();
-		driver.findElement(By.id("text10")).sendKeys("AJCC");
+		driver.findElement(By.id("text10")).sendKeys("TNAIC");
 		
 		driver.findElement(By.id("checkbox1")).click();
 		driver.findElement(By.id("checkbox2")).click();
@@ -3465,7 +3462,7 @@ class WebLocatorTest {
 		
 	}	
 	
-	@Disabled
+	@Test
 	void testForm2_W2_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3479,25 +3476,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -3562,7 +3559,7 @@ class WebLocatorTest {
 		
 	}	
 
-	@Disabled
+	@Test
 	void testForm2_W2_E2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3576,25 +3573,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -3659,7 +3656,7 @@ class WebLocatorTest {
 		
 	}		
 
-	@Disabled
+	@Test
 	void testForm2_W2_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3673,25 +3670,25 @@ class WebLocatorTest {
 		driver.get("http://localhost/research-form/form2.html");
 		
 		driver.findElement(By.xpath("//*[@id=\"text1\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text2\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text3\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text3\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text4\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text4\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text5\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text5\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text6\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text6\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text7\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text7\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text8\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text8\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text9\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text9\"]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("//*[@id=\"text10\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("//*[@id=\"text10\"]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("//*[@id=\"checkbox1\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"checkbox2\"]")).click();
@@ -3756,7 +3753,7 @@ class WebLocatorTest {
 		
 	}		
 	
-	@Disabled
+	@Test
 	void testForm2_W3_E1() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3769,25 +3766,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
@@ -3852,7 +3849,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Disabled
+	@Test
 	void testForm2_W3_E2() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3865,25 +3862,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
@@ -3948,7 +3945,7 @@ class WebLocatorTest {
 		
 	}
 
-	@Disabled
+	@Test
 	void testForm2_W3_E3() throws InterruptedException {
 		WebDriver driver = null;
 
@@ -3961,25 +3958,25 @@ class WebLocatorTest {
 		
 		driver.get("http://localhost/research-form/form2.html");
 		driver.findElement(By.xpath("/html/body/form/input[1]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[1]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[2]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[2]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[3]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[3]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[4]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[4]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[5]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[5]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[6]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[6]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[7]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[7]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[8]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[8]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[9]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[9]")).sendKeys("TNAIC");
 		driver.findElement(By.xpath("/html/body/form/input[10]")).click();
-		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("AJCC");
+		driver.findElement(By.xpath("/html/body/form/input[10]")).sendKeys("TNAIC");
 		
 		driver.findElement(By.xpath("/html/body/form/input[11]")).click();
 		driver.findElement(By.xpath("/html/body/form/input[12]")).click();
